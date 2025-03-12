@@ -1,4 +1,4 @@
-const { HelpParser, executeCommand } = require('../helpers/help-parser')
+import { HelpParser, executeCommand } from '../helpers/help-parser.js'
 
 const dumpAllCommands = async () => {
   try {

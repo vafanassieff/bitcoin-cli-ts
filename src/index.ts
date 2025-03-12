@@ -1,7 +1,7 @@
-import request from './rpc-request'
+import request from './rpc-request.js'
 
-export * from './rpc'
-export * from './bitcoind'
-export * from './types'
+export * from './rpc/index.js'
+export * from './bitcoind.js'
+export * from './types.js'
 
 export const rpcRequest = request

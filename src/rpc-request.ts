@@ -2,7 +2,7 @@ import { request } from 'undici'
 import JSONBigInt from 'json-bigint'
 import { JSONRPCClient as Client } from 'json-rpc-2.0'
 
-import { Json } from './types'
+import { Json } from './types.js'
 
 type Command = {
   method: string

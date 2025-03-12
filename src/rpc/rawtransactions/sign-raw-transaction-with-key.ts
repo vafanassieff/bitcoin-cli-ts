@@ -1,7 +1,7 @@
 // Auto synced from github actions. Don't change this file
 
-import { Bitcoind } from '../../types'
-import request from '../../rpc-request'
+import { Bitcoind } from '../../types.js'
+import request from '../../rpc-request.js'
 
 type SignRawTransactionWithKeyParams = {
   bitcoind: Bitcoind

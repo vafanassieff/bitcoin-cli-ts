@@ -1,4 +1,4 @@
-const { words } = require('./words')
+import { words } from './words.js'
 
 function toCamelCase(word) {
   let matchedSuffix = ''

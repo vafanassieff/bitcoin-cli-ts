@@ -1,1 +1,1 @@
-export * from './get-zmq-notifications'
+export * from './get-zmq-notifications.js'

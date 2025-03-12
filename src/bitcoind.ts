@@ -1,4 +1,4 @@
-import { Bitcoind } from './types'
+import { Bitcoind } from './types.js'
 
 type BitcoindConfig = Omit<Bitcoind, 'url' | 'authHeader'>
 

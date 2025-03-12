@@ -1,12 +1,12 @@
-const fs = require('fs')
-const path = require('path')
+import fs from 'fs'
+import path from 'path'
 
-const toCamelCase = require('./helpers/camelize')
-const {
+import toCamelCase from './helpers/camelize.js'
+import {
   HelpParser,
   executeCommand,
   parseParameters,
-} = require('./helpers/help-parser')
+} from './helpers/help-parser.js'
 
 const helpParser = new HelpParser()
 
